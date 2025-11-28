@@ -12,7 +12,7 @@ function Home() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/agent">
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
