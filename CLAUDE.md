@@ -8,7 +8,7 @@ Use icons from lucide-react for logos.
 
 Always separate code into multiple files for better code organisation.
 
-Use `yarn build` to verify that your changes are working OK.
+Always run `yarn build` after implementing any changes to verify that your changes are working OK after.
 Do not use `yarn dev` because user is running it in another terminal.
 
 Always create nice images for backgrounds etc. unless the user explicitelly asked not to do it.
