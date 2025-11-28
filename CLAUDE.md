@@ -13,3 +13,8 @@ Do not use `yarn dev` because user is running it in another terminal.
 
 Always create nice images for backgrounds etc. unless the user explicitelly asked not to do it.
 Create images using the image-generator MCP tool and icons using the icon-generator MCP tool.
+Whenever you generate an image, it should be saved in the /assets folder of the project.
+
+
+The generated images should be usable in code like:
+import logo from "../assets/logo.png"; // adjust path relative to this file
